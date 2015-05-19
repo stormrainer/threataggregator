@@ -4,6 +4,11 @@ Aggregates security threats from a number of online sources, and outputs to Sysl
 feeds.py contains a dictionary list of various feeds to use.
 config.py contains a small list of configuration settings for syslog purposes.
 
+Requirements:
+pip install geoip2
+pip install netaddr
+First time usage will cache geoip2 database which will take a few minutes
+
 Usage:
 
 Simply run threataggregator.py with no arguments.
